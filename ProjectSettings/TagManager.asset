@@ -41,6 +41,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Player
+  - name: Ground1
+    uniqueID: 4292698413
+    locked: 0
+  - name: Ground2
+    uniqueID: 2261633625
+    locked: 0
+  - name: Ground3
+    uniqueID: 728156701
+    locked: 0
+  - name: GroundDecoration1
+    uniqueID: 3730684217
+    locked: 0
+  - name: Instances
     uniqueID: 3555192337
     locked: 0

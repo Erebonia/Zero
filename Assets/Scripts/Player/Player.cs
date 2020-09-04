@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//test
-
 public class Player : MonoBehaviour
 {
     private Animator anim;
