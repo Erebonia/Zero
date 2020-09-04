@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
     // Movement variables
     public Rigidbody2D rb;
     private Vector3 moveDirection;
-    private const float MOVE_SPEED = 5.333f;
+    private const float MOVE_SPEED = 7.5f; //5.333f
 
     //Tumble
     private Vector3 tumbleDirection;
@@ -67,6 +67,12 @@ public class Player : MonoBehaviour
 
             case State.Tumbling:
                 ReduceTumbleSpeedOverTime();
+                break;
+
+            case State.Attacking:
+                //Stop Movement
+                rb.velocity = Vector3.zero;
+                anim.SetBool("moving", false);
                 break;
         }
     }
