@@ -18,11 +18,11 @@ public class Enemy : MonoBehaviour
     private const float healthBarFadeTimerMAX = 0.5f;
 
     //UI
-    public Text enemyHP;
+    private Text enemyHP;
     private GameObject enemyHPBar;
     private float despawnEnemyBar = 15f;
     private float despawnDuration;
-    public Animator enemyHPBarAnim;
+    private Animator enemyHPBarAnim;
 
     private void Awake()
     {
