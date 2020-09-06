@@ -35,9 +35,6 @@ public class Ghost : MonoBehaviour
                 //Grab the CURRENT sprite that is in use in game and that will become the ghost.
                 currentGhost.GetComponent<SpriteRenderer>().sprite = currentSprite;
 
-                //Destroy duplicate instantiated ghosts.
-                Destroy(currentGhost, 1f);
-
                 ghostDelaySeconds = ghostDelay;
 
                 //Turn off making the ghost. Lest we infinitely spawn them.
