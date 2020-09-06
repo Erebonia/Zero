@@ -34,10 +34,10 @@ public class PlayerAttack : MonoBehaviour
         gameObject.GetComponent<Player>().state = Player.State.Attacking;
 
         //Play attack anim
+        //animator.SetTrigger("attack 1");
 
         //Detect enemies in range of the attack
-       Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
-
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
         //Damage enemies.
         foreach (Collider2D enemy in hitEnemies)

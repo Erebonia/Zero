@@ -17,6 +17,10 @@ public class Player : MonoBehaviour
     private Vector3 lastMoveDirection;
     public Ghost ghost;
 
+    //Combat 
+    public int hitpoint = 10;
+    public int maxHitpoint = 10;
+
     //State Machine
     public enum State
     {
@@ -41,6 +45,10 @@ public class Player : MonoBehaviour
 
     protected virtual void Update()
     {
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            TakeDamage(1);
+        }
         switch (state)
         {
             case State.Normal:
@@ -156,4 +164,15 @@ public class Player : MonoBehaviour
         anim.SetTrigger("tumbling");
     }
 
+    public void TakeDamage(int damage)
+    {
+        hitpoint -= damage;
+
+        Debug.Log("Player HP: " + hitpoint);
+
+        HUD.instance.OnHitPointChange();
+
+        //Play hurt animation
+        // anim.SetTrigger("Hurt");
+    }
 }
