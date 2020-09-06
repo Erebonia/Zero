@@ -13184,9 +13184,9 @@ GameObject:
   m_Component:
   - component: {fileID: 331874568}
   - component: {fileID: 331874567}
-  - component: {fileID: 331874566}
   - component: {fileID: 331874569}
-  m_Layer: 0
+  - component: {fileID: 331874566}
+  m_Layer: 8
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13205,7 +13205,7 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_UsedByComposite: 1
+  m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
@@ -13298,8 +13298,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hpBarFadeColor: {r: 0, g: 0, b: 0, a: 0}
-  enemyHP: {fileID: 0}
-  enemyHPBarAnim: {fileID: 0}
 --- !u!1 &476148267
 GameObject:
   m_ObjectHideFlags: 0
