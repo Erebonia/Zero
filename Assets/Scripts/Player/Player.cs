@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Player : MonoBehaviour
 {
@@ -20,6 +21,7 @@ public class Player : MonoBehaviour
     //Combat 
     public int hitpoint = 10;
     public int maxHitpoint = 10;
+    public GameObject floatingText;
 
     //State Machine
     public enum State
@@ -171,6 +173,9 @@ public class Player : MonoBehaviour
         Debug.Log("Player HP: " + hitpoint);
 
         HUD.instance.OnHitPointChange();
+
+        Instantiate(floatingText, transform.position, Quaternion.identity, transform);
+        floatingText.GetComponent<TextMeshPro>().text = damage.ToString();
 
         //Play hurt animation
         // anim.SetTrigger("Hurt");

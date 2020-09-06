@@ -113,5 +113,7 @@ public class Enemy : MonoBehaviour
         healthBarFadeTimer = healthBarFadeTimerMAX;
 
         hitpointBar.fillAmount = ratio;
+
+        enemyHP.text = gameObject.name + ": " + hitpoints.ToString() + "/" + maxHitpoints.ToString();
     }
 }

@@ -515,6 +515,7 @@ MonoBehaviour:
   ghost: {fileID: 1541242065}
   hitpoint: 10
   maxHitpoint: 10
+  floatingText: {fileID: 5341389902941609502, guid: a4c2b4ebcc892dc46856b5079cebc0ef, type: 3}
   state: 0
 --- !u!114 &1541242065
 MonoBehaviour:
@@ -587,6 +588,10 @@ PrefabInstance:
     - target: {fileID: 2307160875047058449, guid: a4a132f2689247f4c93c8a3795aa2fe0, type: 3}
       propertyPath: m_Name
       value: HUD
+      objectReference: {fileID: 0}
+    - target: {fileID: 2307160875047058452, guid: a4a132f2689247f4c93c8a3795aa2fe0, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 2307160875047058453, guid: a4a132f2689247f4c93c8a3795aa2fe0, type: 3}
       propertyPath: m_LocalPosition.x
