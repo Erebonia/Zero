@@ -13206,7 +13206,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.007044673, y: -0.028178692}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -13217,7 +13217,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.25, y: 1.9375}
+  m_Size: {x: 1.2359107, y: 1.7402487}
   m_EdgeRadius: 0
 --- !u!212 &331874567
 SpriteRenderer:
@@ -13298,6 +13298,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hpBarFadeColor: {r: 0, g: 0, b: 0, a: 0}
+  floatingText: {fileID: 5341389902941609502, guid: a4c2b4ebcc892dc46856b5079cebc0ef, type: 3}
 --- !u!1 &476148267
 GameObject:
   m_ObjectHideFlags: 0

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class Enemy : MonoBehaviour
 {
@@ -23,6 +24,7 @@ public class Enemy : MonoBehaviour
     private float despawnEnemyBar = 15f;
     private float despawnDuration;
     private Animator enemyHPBarAnim;
+    public GameObject floatingText;
 
     private void Awake()
     {
@@ -61,6 +63,11 @@ public class Enemy : MonoBehaviour
 
         //Play hurt animation
         // anim.SetTrigger("Hurt");
+
+        //Instantiate, change color and text
+        Instantiate(floatingText, transform.position, Quaternion.identity, transform);
+        floatingText.GetComponent<TextMeshPro>().color = Color.red;
+        floatingText.GetComponent<TextMeshPro>().text = damage.ToString();
 
         if (hitpoints <= 0)
         {
@@ -114,6 +121,9 @@ public class Enemy : MonoBehaviour
 
         hitpointBar.fillAmount = ratio;
 
+        //Set color and display HP
+        enemyHP.color = Color.yellow;
         enemyHP.text = gameObject.name + ": " + hitpoints.ToString() + "/" + maxHitpoints.ToString();
+
     }
 }

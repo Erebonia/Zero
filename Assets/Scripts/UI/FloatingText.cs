@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FloatingText : MonoBehaviour
 {
-    [SerializeField] private float destroyTime = 3f;
+    [SerializeField] private float destroyTime = 1f;
 
     // Start is called before the first frame update
     void Start()

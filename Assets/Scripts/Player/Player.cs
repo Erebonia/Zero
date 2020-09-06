@@ -168,16 +168,21 @@ public class Player : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        hitpoint -= damage;
+        if (state != State.Tumbling)
+        {
+            hitpoint -= damage;
 
-        Debug.Log("Player HP: " + hitpoint);
+            Debug.Log("Player HP: " + hitpoint);
 
-        HUD.instance.OnHitPointChange();
+            HUD.instance.OnHitPointChange();
 
-        Instantiate(floatingText, transform.position, Quaternion.identity, transform);
-        floatingText.GetComponent<TextMeshPro>().text = damage.ToString();
+            //Instantiate, change color and text
+            Instantiate(floatingText, transform.position, Quaternion.identity, transform);
+            floatingText.GetComponent<TextMeshPro>().color = Color.red;
+            floatingText.GetComponent<TextMeshPro>().text = damage.ToString();
 
-        //Play hurt animation
-        // anim.SetTrigger("Hurt");
+            //Play hurt animation
+            // anim.SetTrigger("Hurt");
+        }
     }
 }
