@@ -16,7 +16,6 @@ public class SceneLoader : MonoBehaviour
         if (coll.name == Tags.Player)
         {
             LoadNextScene();
-            SpawnPoint(coll);
         }
     }
 
@@ -39,13 +38,4 @@ public class SceneLoader : MonoBehaviour
         //Unload Scene
         SceneManager.UnloadSceneAsync(unloadScene);
     }
-     
-     public void SpawnPoint(Collider2D coll)
-     {
-         //Teleport player to spawn game object.
-        GameObject spawnPoint = GameObject.Find("SpawnPoint");
-        
-        coll.transform.position = spawnPoint.transform.position;
-
-     }
 }
