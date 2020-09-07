@@ -6,24 +6,26 @@ using UnityEngine.SceneManagement;
 public class SceneLoader : MonoBehaviour
 {
     public Animator anim;
+    public string location = "Field";
+    public string unloadScene = "Scene1_Farm";
 
     public float transitionTime = 1f;
 
-    // Update is called once per frame
-    void Update()
+    public void OnTriggerEnter2D(Collider2D coll)
     {
-        if (Input.GetKeyDown(KeyCode.G))
+        if (coll.name == Tags.Player)
         {
             LoadNextScene();
+            SpawnPoint(coll);
         }
     }
 
     public void LoadNextScene()
     {
-        StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex + 1));
+        StartCoroutine(LoadScene(location));
     }
 
-    IEnumerator LoadScene(int loadIndex)
+    IEnumerator LoadScene(string Location)
     {
         //Play fade animation.
         anim.SetTrigger("Start");
@@ -31,7 +33,19 @@ public class SceneLoader : MonoBehaviour
         //Wait
         yield return new WaitForSeconds(transitionTime);
 
-        //Load New
-        SceneManager.LoadScene(loadIndex, LoadSceneMode.Additive);
+        //Additive Scene Loading
+        SceneManager.LoadSceneAsync(Location, LoadSceneMode.Additive);
+
+        //Unload Scene
+        SceneManager.UnloadSceneAsync(unloadScene);
     }
+     
+     public void SpawnPoint(Collider2D coll)
+     {
+         //Teleport player to spawn game object.
+        GameObject spawnPoint = GameObject.Find("SpawnPoint");
+        
+        coll.transform.position = spawnPoint.transform.position;
+
+     }
 }
