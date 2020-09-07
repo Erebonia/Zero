@@ -13299,6 +13299,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hpBarFadeColor: {r: 0, g: 0, b: 0, a: 0}
   floatingText: {fileID: 5341389902941609502, guid: a4c2b4ebcc892dc46856b5079cebc0ef, type: 3}
+--- !u!1 &364110585
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 364110586}
+  m_Layer: 0
+  m_Name: SpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &364110586
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364110585}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.66, y: 14.74, z: -3.2338052}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &476148267
 GameObject:
   m_ObjectHideFlags: 0
@@ -63099,7 +63129,6 @@ GameObject:
   - component: {fileID: 4607226751344461546}
   - component: {fileID: 4607226751344461549}
   - component: {fileID: 4607226751344461548}
-  - component: {fileID: 4607226751344461547}
   m_Layer: 0
   m_Name: Portal
   m_TagString: Untagged
@@ -63115,7 +63144,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4607226751344461544}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.41, y: 6.73, z: 0}
+  m_LocalPosition: {x: 0.55, y: 6.98, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4607226750395668055}
@@ -63137,26 +63166,6 @@ MonoBehaviour:
   anim: {fileID: 4607226750395668048}
   location: Scene2_Field
   unloadScene: Scene1_Farm
-  transitionTime: 1
---- !u!95 &4607226751344461547
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4607226751344461544}
-  m_Enabled: 0
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 27b9426c0a1f2f54dbc397df80a9d4c4, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!212 &4607226751344461548
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -63221,6 +63230,6 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.051163673, y: 0}
+  m_Offset: {x: 0.051163673, y: 0.389004}
   serializedVersion: 2
-  m_Radius: 3.854495
+  m_Radius: 1.3436673

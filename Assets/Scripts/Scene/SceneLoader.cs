@@ -9,7 +9,7 @@ public class SceneLoader : MonoBehaviour
     public string location = "Field";
     public string unloadScene = "Scene1_Farm";
 
-    public float transitionTime = 1f;
+    private float transitionTime = 1f;
 
     public void OnTriggerEnter2D(Collider2D coll)
     {
@@ -37,5 +37,8 @@ public class SceneLoader : MonoBehaviour
 
         //Unload Scene
         SceneManager.UnloadSceneAsync(unloadScene);
+
+        //Stop fade animation.
+        anim.SetTrigger("Stop");
     }
 }
