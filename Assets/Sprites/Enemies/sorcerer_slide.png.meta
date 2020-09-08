@@ -1,0 +1,706 @@
+fileFormatVersion: 2
+guid: 51c2950d3198aea42bdfc59adb14c003
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6179020552150787180
+    second: sorcerer_slide_0
+  - first:
+      213: 5036868641058222985
+    second: sorcerer_slide_1
+  - first:
+      213: -3223186524621568981
+    second: sorcerer_slide_2
+  - first:
+      213: -8496066924496260842
+    second: sorcerer_slide_3
+  - first:
+      213: 8453478731086994664
+    second: sorcerer_slide_4
+  - first:
+      213: -4911937376539735770
+    second: sorcerer_slide_5
+  - first:
+      213: -3561827671282574820
+    second: sorcerer_slide_6
+  - first:
+      213: -2188902143456434515
+    second: sorcerer_slide_7
+  - first:
+      213: 14983717170270330
+    second: sorcerer_slide_8
+  - first:
+      213: -3741433067716884163
+    second: sorcerer_slide_9
+  - first:
+      213: 93026711429444898
+    second: sorcerer_slide_10
+  - first:
+      213: 3040131196472659229
+    second: sorcerer_slide_11
+  - first:
+      213: -3691529951974888162
+    second: sorcerer_slide_12
+  - first:
+      213: -5286991445892891962
+    second: sorcerer_slide_13
+  - first:
+      213: -6562057425555094991
+    second: sorcerer_slide_14
+  - first:
+      213: -4646004361751251695
+    second: sorcerer_slide_15
+  - first:
+      213: -5606417103297515189
+    second: sorcerer_slide_16
+  - first:
+      213: 7767366445593753252
+    second: sorcerer_slide_17
+  - first:
+      213: -5534784237483808776
+    second: sorcerer_slide_18
+  - first:
+      213: 3194674836409774115
+    second: sorcerer_slide_19
+  - first:
+      213: -1782433557240040705
+    second: sorcerer_slide_20
+  - first:
+      213: 3481304060128514519
+    second: sorcerer_slide_21
+  - first:
+      213: -7545166557811481019
+    second: sorcerer_slide_22
+  - first:
+      213: 1869561792596724467
+    second: sorcerer_slide_23
+  - first:
+      213: -42385896895978147
+    second: sorcerer_slide_24
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sorcerer_slide_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 408
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6429ce447a40c550800000000000000
+      internalID: 6179020552150787180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_slide_1
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 408
+        width: 51
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9837492b75d86e540800000000000000
+      internalID: 5036868641058222985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_slide_2
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 408
+        width: 53
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b240b1bdee0f443d0800000000000000
+      internalID: -3223186524621568981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_slide_3
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 408
+        width: 53
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61174717528e71a80800000000000000
+      internalID: -8496066924496260842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_slide_4
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 408
+        width: 54
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec92c21e1ac05570800000000000000
+      internalID: 8453478731086994664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_slide_5
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 308
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62982680bfa45dbb0800000000000000
+      internalID: -4911937376539735770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_slide_6
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 308
+        width: 63
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a9b06ba98d19ec0800000000000000
+      internalID: -3561827671282574820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_slide_7
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 308
+        width: 67
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6203b09157f91e0800000000000000
+      internalID: -2188902143456434515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_slide_8
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 308
+        width: 67
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7059538c9b353000800000000000000
+      internalID: 14983717170270330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_slide_9
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 308
+        width: 67
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39c5d7a272c31cc0800000000000000
+      internalID: -3741433067716884163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_slide_10
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 208
+        width: 67
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225ff591d4f7a4100800000000000000
+      internalID: 93026711429444898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_slide_11
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 208
+        width: 67
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d06544737b03a20800000000000000
+      internalID: 3040131196472659229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_slide_12
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 208
+        width: 67
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d62d6311d05ccc0800000000000000
+      internalID: -3691529951974888162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_slide_13
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 208
+        width: 67
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca7609aa45d0a6b0800000000000000
+      internalID: -5286991445892891962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_slide_14
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 208
+        width: 67
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132031ae983eee4a0800000000000000
+      internalID: -6562057425555094991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_slide_15
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 108
+        width: 67
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115b6e806a3168fb0800000000000000
+      internalID: -4646004361751251695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_slide_16
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 108
+        width: 67
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41f64f39510232b0800000000000000
+      internalID: -5606417103297515189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_slide_17
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 108
+        width: 64
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a677e501aa3bcb60800000000000000
+      internalID: 7767366445593753252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_slide_18
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 108
+        width: 66
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7a8508f0f7033b0800000000000000
+      internalID: -5534784237483808776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_slide_19
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 108
+        width: 71
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320751d66d3c55c20800000000000000
+      internalID: 3194674836409774115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_slide_20
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 8
+        width: 70
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2b8f89f168347e0800000000000000
+      internalID: -1782433557240040705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_slide_21
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 8
+        width: 71
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1d5131993105030800000000000000
+      internalID: 3481304060128514519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_slide_22
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 8
+        width: 68
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5466d7eddfe2a4790800000000000000
+      internalID: -7545166557811481019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_slide_23
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 8
+        width: 64
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3face558b8402f910800000000000000
+      internalID: 1869561792596724467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_slide_24
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 8
+        width: 66
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d556708504a696ff0800000000000000
+      internalID: -42385896895978147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

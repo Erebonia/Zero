@@ -1,0 +1,778 @@
+fileFormatVersion: 2
+guid: d5537ecda925a604dac5e277b655c1f9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7166155977866439263
+    second: sorcerer_attack_0
+  - first:
+      213: -2233622142287521321
+    second: sorcerer_attack_1
+  - first:
+      213: -2691370400690458933
+    second: sorcerer_attack_2
+  - first:
+      213: 8112222679333344297
+    second: sorcerer_attack_3
+  - first:
+      213: 510751488864753811
+    second: sorcerer_attack_4
+  - first:
+      213: 3042085042320217017
+    second: sorcerer_attack_5
+  - first:
+      213: -4986196560085246569
+    second: sorcerer_attack_6
+  - first:
+      213: 2328815259982109306
+    second: sorcerer_attack_7
+  - first:
+      213: 8430338113273641212
+    second: sorcerer_attack_8
+  - first:
+      213: -2669904059037943924
+    second: sorcerer_attack_9
+  - first:
+      213: -3918091210554923445
+    second: sorcerer_attack_10
+  - first:
+      213: 1270912394767764984
+    second: sorcerer_attack_11
+  - first:
+      213: -9203830262933707846
+    second: sorcerer_attack_12
+  - first:
+      213: -6372972269284402035
+    second: sorcerer_attack_13
+  - first:
+      213: 2336268962563740206
+    second: sorcerer_attack_14
+  - first:
+      213: -3174587981753479818
+    second: sorcerer_attack_15
+  - first:
+      213: 5749323605249722391
+    second: sorcerer_attack_16
+  - first:
+      213: 1568120903846091816
+    second: sorcerer_attack_17
+  - first:
+      213: 1003664253293564120
+    second: sorcerer_attack_18
+  - first:
+      213: -8301441488672094458
+    second: sorcerer_attack_19
+  - first:
+      213: -7981069693817386489
+    second: sorcerer_attack_20
+  - first:
+      213: -100894036605046473
+    second: sorcerer_attack_21
+  - first:
+      213: 5877323179403838530
+    second: sorcerer_attack_22
+  - first:
+      213: -8255305028040944173
+    second: sorcerer_attack_23
+  - first:
+      213: -1839538830167931623
+    second: sorcerer_attack_24
+  - first:
+      213: -3879719205537863113
+    second: sorcerer_attack_25
+  - first:
+      213: 6808062785071568589
+    second: sorcerer_attack_26
+  - first:
+      213: -8726418699348732432
+    second: sorcerer_attack_27
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sorcerer_attack_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 308
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a59a362b13bc8c90800000000000000
+      internalID: -7166155977866439263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_attack_1
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 308
+        width: 51
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9518eee749001e0800000000000000
+      internalID: -2233622142287521321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_attack_2
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 308
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce28db41e456aad0800000000000000
+      internalID: -2691370400690458933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_attack_3
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 208
+        width: 57
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9241884eb87649070800000000000000
+      internalID: 8112222679333344297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_attack_4
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 208
+        width: 62
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3981946e5cd861700800000000000000
+      internalID: 510751488864753811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_attack_5
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 208
+        width: 69
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b396047a38a73a20800000000000000
+      internalID: 3042085042320217017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_attack_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 116
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d18d785a87dcab0800000000000000
+      internalID: -4986196560085246569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_attack_7
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 108
+        width: 59
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a1ebee32d915020800000000000000
+      internalID: 2328815259982109306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_attack_8
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 108
+        width: 62
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8bc1229d39ef470800000000000000
+      internalID: 8430338113273641212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_attack_9
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 121
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c877ba0776892fad0800000000000000
+      internalID: -2669904059037943924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_attack_10
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 117
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b462b4d8dc420a9c0800000000000000
+      internalID: -3918091210554923445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_attack_11
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 108
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd06c6e61033a110800000000000000
+      internalID: 1270912394767764984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_attack_12
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 110
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3a8dcc32d654080800000000000000
+      internalID: -9203830262933707846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_attack_13
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 111
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c53ed8c77ae87a0800000000000000
+      internalID: -6372972269284402035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_attack_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 8
+        width: 79
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22d16d4e381c6020800000000000000
+      internalID: 2336268962563740206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_attack_15
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 8
+        width: 59
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d0c5fdc0991f3d0800000000000000
+      internalID: -3174587981753479818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_attack_16
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 69
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7188da59b53b9cf40800000000000000
+      internalID: 5749323605249722391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_attack_17
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 73
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c5c9e57a513c510800000000000000
+      internalID: 1568120903846091816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_attack_18
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 62
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0125b125bbded00800000000000000
+      internalID: 1003664253293564120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_attack_19
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 8
+        width: 74
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6078200f2fa5bcc80800000000000000
+      internalID: -8301441488672094458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_attack_20
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 72
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a0164266b8d3190800000000000000
+      internalID: -7981069693817386489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_attack_21
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 62
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7317334886d899ef0800000000000000
+      internalID: -100894036605046473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_attack_22
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 42
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2440982da42709150800000000000000
+      internalID: 5877323179403838530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_attack_23
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 45
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d59f13c0d34f6d80800000000000000
+      internalID: -8255305028040944173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_attack_24
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 40
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9158d452e25a876e0800000000000000
+      internalID: -1839538830167931623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_attack_25
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 36
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73aa7ad20f7782ac0800000000000000
+      internalID: -3879719205537863113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_attack_26
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 25
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc65fb848091b7e50800000000000000
+      internalID: 6808062785071568589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorcerer_attack_27
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 21
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f51eff6d6885e680800000000000000
+      internalID: -8726418699348732432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
