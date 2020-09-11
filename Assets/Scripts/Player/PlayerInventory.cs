@@ -18,6 +18,20 @@ public class PlayerInventory : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            inventory.Save();
+        }
+
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            inventory.Load();
+        }
+
+    }
+
     private void OnApplicationQuit()
     {
         //Clear inventory when application is quit.

@@ -1,23 +1,37 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.IO;
+using UnityEditor;
 
 [CreateAssetMenu(fileName = "New Inventory", menuName = "Inventory System/Inventory")]
-public class InventoryObject : ScriptableObject
+public class InventoryObject : ScriptableObject, ISerializationCallbackReceiver
 {
+    public string savePath;
+
+    private ItemDatabaseObject database;
+
     //Makes list of the InventorySlot class
     public List<InventorySlot> Container = new List<InventorySlot>();
+
+    private void OnEnable()
+    {
+#if UNITY_EDITOR
+        //Set database to this file
+        database = (ItemDatabaseObject)AssetDatabase.LoadAssetAtPath("Assets/Resources/Database.asset", typeof(ItemDatabaseObject));
+#else
+    database = Resources.Load<ItemDatabaseObject>("Database");
+#endif
+    }
 
     public void AddItem(ItemObject _item, int _amount)
     {
         if(Container.Count == 0)
         {
-            Container.Add(new InventorySlot(_item, _amount));
+            Container.Add(new InventorySlot(database.GetId[_item], _item, _amount));
             return;
         }
-
-        //Checks for duplicates
-        bool hasItem = false;
 
         //Loop through inventory! Going through the Container List's count and checking all the items. Update the quantity and break out if item is found.
         //This repeats for every slot of existing inventory! Then it will break out and attempt the if statement.
@@ -26,27 +40,54 @@ public class InventoryObject : ScriptableObject
              if(Container[i].item == _item)
              {
                 Container[i].AddAmount(_amount);
-                hasItem = true;
-                break;
+                return;
              }
         }
+        Container.Add(new InventorySlot(database.GetId[_item], _item, _amount));
+    }
 
-        //If the item is not already found then create an inventory slot for it.
-        if (!hasItem)
+    public void Save()
+    {
+        string saveData = JsonUtility.ToJson(this, true);
+        BinaryFormatter bf = new BinaryFormatter();
+        FileStream file = File.Create(string.Concat(Application.persistentDataPath, savePath));
+        bf.Serialize(file, saveData);
+        file.Close();
+    }
+
+    public void Load()
+    {
+        if (File.Exists(string.Concat(Application.persistentDataPath, savePath)))
         {
-            Container.Add(new InventorySlot(_item, _amount));
+            BinaryFormatter bf = new BinaryFormatter();
+            FileStream file = File.Open(string.Concat(Application.persistentDataPath, savePath), FileMode.Open);
+            JsonUtility.FromJsonOverwrite(bf.Deserialize(file).ToString(), this);
+            file.Close();
         }
+    }
+
+    public void OnAfterDeserialize()
+    {
+        for (int i = 0; i < Container.Count; i++)
+            Container[i].item = database.GetItem[Container[i].ID];
+    }
+
+    public void OnBeforeSerialize()
+    {
+
     }
 }
 
 [System.Serializable]
 public class InventorySlot
 {
+    public int ID;
     public ItemObject item;
     public int amount;
 
-    public InventorySlot(ItemObject _item, int _amount)
+    public InventorySlot(int _id, ItemObject _item, int _amount)
     {
+        ID = _id;
         item = _item;
         amount = _amount;
     }
