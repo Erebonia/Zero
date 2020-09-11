@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public class DisplayInventory : MonoBehaviour
 {
+    public GameObject inventoryPrefab;
     public InventoryObject inventory;
     
     public int X_START;
@@ -30,21 +32,24 @@ public class DisplayInventory : MonoBehaviour
 
     public void UpdateDisplay()
     {
-        for (int i = 0; i < inventory.Container.Count; i++)
+        for (int i = 0; i < inventory.Container.Items.Count; i++)
         {
-            if (itemsDisplayed.ContainsKey(inventory.Container[i]))
+            InventorySlot slot = inventory.Container.Items[i];
+            
+            if (itemsDisplayed.ContainsKey(slot))
             {
                 //For loop checks every inventory slot and we set each of them to the real-time quantity.
-                itemsDisplayed[inventory.Container[i]].GetComponentInChildren<TextMeshProUGUI>().text = inventory.Container[i].amount.ToString("n0");
+                itemsDisplayed[slot].GetComponentInChildren<TextMeshProUGUI>().text = slot.amount.ToString("n0");
             }else{
-            GameObject obj = Instantiate(inventory.Container[i].item.prefab, Vector3.zero, Quaternion.identity, transform);
+            GameObject obj = Instantiate(inventoryPrefab, Vector3.zero, Quaternion.identity, transform);
+            obj.transform.GetChild(0).GetComponent<Image>().sprite = inventory.database.GetItem[slot.item.Id].uiDisplay;
             obj.GetComponent<RectTransform>().localPosition = GetPosition(i);
 
             //Set text mesh pro in unity to display the quantity of the item. Also formatted it with n0 to make commas when numbers get too high.
-            obj.GetComponentInChildren<TextMeshProUGUI>().text = inventory.Container[i].amount.ToString("n0");
+            obj.GetComponentInChildren<TextMeshProUGUI>().text = slot.amount.ToString("n0");
 
             //Add to dictionary
-            itemsDisplayed.Add(inventory.Container[i], obj);
+            itemsDisplayed.Add(slot, obj);
             }
         }
     }
@@ -52,16 +57,21 @@ public class DisplayInventory : MonoBehaviour
     public void CreateDisplay()
     {
         //Go through every single inventory slot that currently exists.
-        for (int i = 0; i < inventory.Container.Count; i++)
+        for (int i = 0; i < inventory.Container.Items.Count; i++)
         {
-            GameObject obj = Instantiate(inventory.Container[i].item.prefab, Vector3.zero, Quaternion.identity, transform);
+            InventorySlot slot = inventory.Container.Items[i];
+
+            GameObject obj = Instantiate(inventoryPrefab, Vector3.zero, Quaternion.identity, transform);
+
+            obj.transform.GetChild(0).GetComponent<Image>().sprite = inventory.database.GetItem[slot.item.Id].uiDisplay;
+
             obj.GetComponent<RectTransform>().localPosition = GetPosition(i);
 
             //Set text mesh pro in unity to display the quantity of the item. Also formatted it with n0 to make commas when numbers get too high.
-            obj.GetComponentInChildren<TextMeshProUGUI>().text = inventory.Container[i].amount.ToString("n0");
+            obj.GetComponentInChildren<TextMeshProUGUI>().text = slot.amount.ToString("n0");
             
             //Add to dictionary
-            itemsDisplayed.Add(inventory.Container[i], obj);
+            itemsDisplayed.Add(slot, obj);
         }
     }
 

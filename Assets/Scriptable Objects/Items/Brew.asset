@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68762a8c71a90424086b7c85e5e8ecd6, type: 3}
   m_Name: Brew
   m_EditorClassIdentifier: 
-  prefab: {fileID: 5359216694810428481, guid: 822c944ce38a11d4f9a5d3209991f1df, type: 3}
+  Id: 0
+  uiDisplay: {fileID: 21300000, guid: 5fc4e40866a598a47bb130889e99ed08, type: 3}
   type: 0
   description: Restores your health.
-  restoreHealthValue: 0
+  buffs: []

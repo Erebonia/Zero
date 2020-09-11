@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1c3e598c2e6889048b46ae7001a72c00, type: 3}
-  m_Name: Bones
+  m_Name: Mana Potion
   m_EditorClassIdentifier: 
-  prefab: {fileID: 5415855664915044628, guid: a27c132966d713b4999cd55fdf186bd1, type: 3}
+  Id: 1
+  uiDisplay: {fileID: 21300000, guid: 934404b7953d08e44b64c35f8e780169, type: 3}
   type: 2
   description: Leftover of those that have been slain.
