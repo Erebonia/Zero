@@ -34,7 +34,6 @@ public class PlayerInventory : MonoBehaviour
 
     private void OnApplicationQuit()
     {
-        //Clear inventory when application is quit.
-        inventory.Container.Items.Clear();
+        inventory.Container.Items = new InventorySlot[24];
     }
 }
