@@ -1,0 +1,469 @@
+fileFormatVersion: 2
+guid: a41556260649c8a48b12de38b5c3d2e4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2243431081815097524
+    second: attack_up_light_1
+  - first:
+      213: -2022512294986019777
+    second: attack_up_light_2
+  - first:
+      213: 8991526736272213334
+    second: attack_up_heavy_3
+  - first:
+      213: -6391864839475517402
+    second: attack_up_light_3
+  - first:
+      213: 5125926053153188577
+    second: attack_up_light_4
+  - first:
+      213: -8669102009033920562
+    second: attack_up_light_5
+  - first:
+      213: -7740287473064388537
+    second: attack_up_med_1
+  - first:
+      213: -258143287150451599
+    second: attack_up_med_2
+  - first:
+      213: -8389054888341609920
+    second: attack_up_med_4
+  - first:
+      213: -1298492254267060980
+    second: attack_up_med_3
+  - first:
+      213: 514179056700531280
+    second: attack_up_med_5
+  - first:
+      213: 4371028308369232267
+    second: attack_up_heavy_1
+  - first:
+      213: 1632972403554642442
+    second: attack_up_heavy_2
+  - first:
+      213: 569429039296197307
+    second: attack_up_heavy_4
+  - first:
+      213: 8257917731884635456
+    second: black-knight-attack-up-sprite-tp_14
+  - first:
+      213: -5765176144387504445
+    second: attack_up_heavy_5
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: attack_up_light_1
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 100
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0c8a5cea4422f10800000000000000
+      internalID: 2243431081815097524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_up_light_2
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 100
+        width: 41
+        height: 39
+      alignment: 9
+      pivot: {x: 0.43336004, y: 0.40804955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c8f7f88c79ee3e0800000000000000
+      internalID: -2022512294986019777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_up_heavy_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 0
+        width: 44
+        height: 50
+      alignment: 9
+      pivot: {x: 0.4805948, y: 0.2745903}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655ceef6de158cc70800000000000000
+      internalID: 8991526736272213334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_up_light_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 100
+        width: 50
+        height: 50
+      alignment: 9
+      pivot: {x: 0.49658477, y: 0.26775956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628a0c64bc88b47a0800000000000000
+      internalID: -6391864839475517402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_up_light_4
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 100
+        width: 41
+        height: 48
+      alignment: 9
+      pivot: {x: 0.59162974, y: 0.29721656}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eaad174692f22740800000000000000
+      internalID: 5125926053153188577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_up_light_5
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 100
+        width: 29
+        height: 30
+      alignment: 9
+      pivot: {x: 0.8591956, y: 0.47153932}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf68e557a921b780800000000000000
+      internalID: -8669102009033920562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_up_med_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 34
+        height: 28
+      alignment: 9
+      pivot: {x: 0.6657425, y: 0.3963213}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74857949d89f49490800000000000000
+      internalID: -7740287473064388537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_up_med_2
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 50
+        width: 23
+        height: 49
+      alignment: 9
+      pivot: {x: 0.7153125, y: 0.301355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174ee3c4c04ea6cf0800000000000000
+      internalID: -258143287150451599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_up_med_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 50
+        width: 36
+        height: 49
+      alignment: 9
+      pivot: {x: 0.42884827, y: 0.28741485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042e423b607149b80800000000000000
+      internalID: -8389054888341609920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_up_med_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 50
+        width: 43
+        height: 50
+      alignment: 9
+      pivot: {x: 0.4682296, y: 0.29166657}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0dc0d8ac24dafde0800000000000000
+      internalID: -1298492254267060980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_up_med_5
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 50
+        width: 32
+        height: 30
+      alignment: 9
+      pivot: {x: 0.3505807, y: 0.43169415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052a499b02bb22700800000000000000
+      internalID: 514179056700531280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_up_heavy_1
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0
+        width: 26
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5788146, y: 0.4823347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b815687761309ac30800000000000000
+      internalID: 4371028308369232267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_up_heavy_2
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 0
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ae3e9cfbb79a610800000000000000
+      internalID: 1632972403554642442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_up_heavy_4
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 0
+        width: 28
+        height: 49
+      alignment: 9
+      pivot: {x: 0.7195549, y: 0.294385}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2ba0cb1b407e700800000000000000
+      internalID: 569429039296197307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_up_heavy_5
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 0
+        width: 25
+        height: 30
+      alignment: 9
+      pivot: {x: 0.7663928, y: 0.46584722}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c60a3687dafdffa0800000000000000
+      internalID: -5765176144387504445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

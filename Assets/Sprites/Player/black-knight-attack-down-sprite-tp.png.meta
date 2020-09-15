@@ -1,0 +1,865 @@
+fileFormatVersion: 2
+guid: 013755ff91e94ed46b012d7ff23b350f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7767994258465425004
+    second: attack_down_light1
+  - first:
+      213: 4543325877533220162
+    second: attack_down_light2
+  - first:
+      213: -6578928971022600679
+    second: attack_down_light3a
+  - first:
+      213: 2524212093842445005
+    second: attack_down_light3
+  - first:
+      213: -4924189214249917154
+    second: attack_down_light4
+  - first:
+      213: 584868049488056546
+    second: attack_down_light4a
+  - first:
+      213: 2877901082482118818
+    second: attack_down_light5
+  - first:
+      213: -3150632942644755357
+    second: attack_down_med1
+  - first:
+      213: -6446395643382114396
+    second: attack_down_med2
+  - first:
+      213: -1780699183107988241
+    second: attack_down_med3
+  - first:
+      213: -6818473565848759126
+    second: attack_down_med3a
+  - first:
+      213: -4069040184462991385
+    second: attack_down_med4
+  - first:
+      213: 5713807868760460955
+    second: attack_down_med5
+  - first:
+      213: -8000350978679626316
+    second: attack_down_med4a
+  - first:
+      213: -7436546714405266756
+    second: attack_down_heavy1
+  - first:
+      213: 2943174167371491097
+    second: attack_down_heavy2
+  - first:
+      213: -8335943563908480566
+    second: attack_down_heavy3a
+  - first:
+      213: -1278383650012067122
+    second: attack_down_heavy3
+  - first:
+      213: 1671566966941163651
+    second: attack_down_heavy4
+  - first:
+      213: 4387618543124762294
+    second: attack_down_heavy5
+  - first:
+      213: 9133339011726708811
+    second: attack_down_heavy4a
+  - first:
+      213: -3928568420104767848
+    second: atk_light_1
+  - first:
+      213: 4906051249342561028
+    second: atk_light_2
+  - first:
+      213: 6554798787937393109
+    second: black-knight-attack-down-sprite-tp_2
+  - first:
+      213: 6645931237774723043
+    second: atk_light_3
+  - first:
+      213: 7903805182658388509
+    second: atk_light_4
+  - first:
+      213: -7117126813010695669
+    second: black-knight-attack-down-sprite-tp_5
+  - first:
+      213: 1916034429890713588
+    second: atk_light_5
+  - first:
+      213: -648774645016559390
+    second: atk_med_1
+  - first:
+      213: 2641313881990193981
+    second: atk_med_2
+  - first:
+      213: 4610824935258658699
+    second: black-knight-attack-down-sprite-tp_9
+  - first:
+      213: -614886806934100048
+    second: atk_med_3
+  - first:
+      213: -7865725524471280565
+    second: atk_med_4
+  - first:
+      213: 5828199445210941024
+    second: atk_med_5
+  - first:
+      213: 817249294874750320
+    second: black-knight-attack-down-sprite-tp_13
+  - first:
+      213: -4573134933091918440
+    second: atk_heavy_1
+  - first:
+      213: -718314816095393771
+    second: atk_heavy_2
+  - first:
+      213: -8253190674014834995
+    second: atk_heavy_3
+  - first:
+      213: -3056029857903501444
+    second: black-knight-attack-down-sprite-tp_17
+  - first:
+      213: 4908105265096372325
+    second: atk_heavy_4
+  - first:
+      213: -459106847223386114
+    second: atk_heavy_5
+  - first:
+      213: -8949004616470303754
+    second: black-knight-attack-down-sprite-tp_20
+  - first:
+      213: 8062584147639252550
+    second: black-knight-attack-down-sprite-tp_21
+  - first:
+      213: 908030930581846957
+    second: black-knight-attack-down-sprite-tp_22
+  - first:
+      213: 2104411433753919125
+    second: black-knight-attack-down-sprite-tp_23
+  - first:
+      213: -3403085032260973238
+    second: black-knight-attack-down-sprite-tp_24
+  - first:
+      213: -961026346235337569
+    second: black-knight-attack-down-sprite-tp_25
+  - first:
+      213: 2949709958020503557
+    second: black-knight-attack-down-sprite-tp_26
+  - first:
+      213: 333687509606191143
+    second: black-knight-attack-down-sprite-tp_27
+  - first:
+      213: -4962917257017921874
+    second: black-knight-attack-down-sprite-tp_28
+  - first:
+      213: 5990078564458566897
+    second: black-knight-attack-down-sprite-tp_29
+  - first:
+      213: -6988503539904230173
+    second: black-knight-attack-down-sprite-tp_30
+  - first:
+      213: 5448694081984090481
+    second: black-knight-attack-down-sprite-tp_31
+  - first:
+      213: -3370577748067039016
+    second: black-knight-attack-down-sprite-tp_32
+  - first:
+      213: -6615006693205319189
+    second: black-knight-attack-down-sprite-tp_33
+  - first:
+      213: -6026442076075874295
+    second: black-knight-attack-down-sprite-tp_34
+  - first:
+      213: 6149320806831206794
+    second: black-knight-attack-down-sprite-tp_35
+  - first:
+      213: 352502101955492917
+    second: black-knight-attack-down-sprite-tp_36
+  - first:
+      213: -3599747310782052136
+    second: black-knight-attack-down-sprite-tp_37
+  - first:
+      213: -900331672391193835
+    second: black-knight-attack-down-sprite-tp_38
+  - first:
+      213: -2574798490472528283
+    second: black-knight-attack-down-sprite-tp_39
+  - first:
+      213: -5410459602112947272
+    second: black-knight-attack-down-sprite-tp_40
+  - first:
+      213: 5723789244523407733
+    second: black-knight-attack-down-sprite-tp_41
+  - first:
+      213: -6180856809002843532
+    second: black-knight-attack-down-sprite-tp_42
+  - first:
+      213: 8390335970551320507
+    second: black-knight-attack-down-sprite-tp_43
+  - first:
+      213: -557625107777405556
+    second: black-knight-attack-down-sprite-tp_44
+  - first:
+      213: 2445541683793716210
+    second: black-knight-attack-down-sprite-tp_45
+  - first:
+      213: 1679595067956747685
+    second: black-knight-attack-down-sprite-tp_46
+  - first:
+      213: 4111819301746999365
+    second: black-knight-attack-down-sprite-tp_47
+  - first:
+      213: 8899013476105697108
+    second: black-knight-attack-down-sprite-tp_48
+  - first:
+      213: 1384988823365307486
+    second: black-knight-attack-down-sprite-tp_49
+  - first:
+      213: 5955287743129588509
+    second: black-knight-attack-down-sprite-tp_50
+  - first:
+      213: -3937546698555973528
+    second: black-knight-attack-down-sprite-tp_51
+  - first:
+      213: -311996426682114726
+    second: black-knight-attack-down-sprite-tp_52
+  - first:
+      213: 1376263632114129738
+    second: black-knight-attack-down-sprite-tp_53
+  - first:
+      213: 8049893417443780152
+    second: black-knight-attack-down-sprite-tp_54
+  - first:
+      213: -2397274957089513457
+    second: black-knight-attack-down-sprite-tp_55
+  - first:
+      213: -4998487144783782833
+    second: black-knight-attack-down-sprite-tp_56
+  - first:
+      213: 367650508915782554
+    second: black-knight-attack-down-sprite-tp_57
+  - first:
+      213: -2362286674361052162
+    second: black-knight-attack-down-sprite-tp_58
+  - first:
+      213: -3851394382041982171
+    second: black-knight-attack-down-sprite-tp_59
+  - first:
+      213: 778051119267696795
+    second: black-knight-attack-down-sprite-tp_60
+  - first:
+      213: 3149740422864810808
+    second: black-knight-attack-down-sprite-tp_61
+  - first:
+      213: 8377140297589021844
+    second: black-knight-attack-down-sprite-tp_62
+  - first:
+      213: -2467344361866689676
+    second: black-knight-attack-down-sprite-tp_63
+  - first:
+      213: 6341614961532729494
+    second: black-knight-attack-down-sprite-tp_64
+  - first:
+      213: 2266149122706078998
+    second: black-knight-attack-down-sprite-tp_65
+  - first:
+      213: -4639405237029970931
+    second: black-knight-attack-down-sprite-tp_66
+  - first:
+      213: 2190843161102152463
+    second: black-knight-attack-down-sprite-tp_67
+  - first:
+      213: 1539249426312954207
+    second: black-knight-attack-down-sprite-tp_68
+  - first:
+      213: 191487591608068299
+    second: black-knight-attack-down-sprite-tp_69
+  - first:
+      213: -6707838870378550241
+    second: black-knight-attack-down-sprite-tp_70
+  - first:
+      213: 637513440994045964
+    second: black-knight-attack-down-sprite-tp_71
+  - first:
+      213: -1116219732075067436
+    second: black-knight-attack-down-sprite-tp_72
+  - first:
+      213: 9012484433506023243
+    second: black-knight-attack-down-sprite-tp_73
+  - first:
+      213: 3997346840203850291
+    second: black-knight-attack-down-sprite-tp_74
+  - first:
+      213: -4695999822435109720
+    second: black-knight-attack-down-sprite-tp_75
+  - first:
+      213: -4130308129296643349
+    second: black-knight-attack-down-sprite-tp_76
+  - first:
+      213: 6190186748035855937
+    second: black-knight-attack-down-sprite-tp_77
+  - first:
+      213: -441498206553374647
+    second: black-knight-attack-down-sprite-tp_78
+  - first:
+      213: 4919141710363009786
+    second: black-knight-attack-down-sprite-tp_79
+  - first:
+      213: -8929105779664703920
+    second: black-knight-attack-down-sprite-tp_80
+  - first:
+      213: 5264907442911091281
+    second: black-knight-attack-down-sprite-tp_81
+  - first:
+      213: -3967851949784573640
+    second: black-knight-attack-down-sprite-tp_82
+  - first:
+      213: -7210024335174210470
+    second: black-knight-attack-down-sprite-tp_83
+  - first:
+      213: 1830591086254563286
+    second: black-knight-attack-down-sprite-tp_84
+  - first:
+      213: -800778165538271135
+    second: black-knight-attack-down-sprite-tp_85
+  - first:
+      213: -5326722971902429031
+    second: black-knight-attack-down-sprite-tp_86
+  - first:
+      213: -8746508271185103263
+    second: black-knight-attack-down-sprite-tp_87
+  - first:
+      213: -6197590197306848719
+    second: black-knight-attack-down-sprite-tp_88
+  - first:
+      213: 17147439152417457
+    second: black-knight-attack-down-sprite-tp_89
+  - first:
+      213: 1926219872696402000
+    second: black-knight-attack-down-sprite-tp_90
+  - first:
+      213: 5036718589417292519
+    second: black-knight-attack-down-sprite-tp_91
+  - first:
+      213: 1903195690235530039
+    second: black-knight-attack-down-sprite-tp_92
+  - first:
+      213: 6220463721342543574
+    second: black-knight-attack-down-sprite-tp_93
+  - first:
+      213: -6347402408477609835
+    second: black-knight-attack-down-sprite-tp_94
+  - first:
+      213: 821619336787430007
+    second: black-knight-attack-down-sprite-tp_95
+  - first:
+      213: -3609169583150563940
+    second: black-knight-attack-down-sprite-tp_96
+  - first:
+      213: 7938818813165436369
+    second: black-knight-attack-down-sprite-tp_97
+  - first:
+      213: -961939437430071091
+    second: black-knight-attack-down-sprite-tp_98
+  - first:
+      213: 4163544691113639889
+    second: black-knight-attack-down-sprite-tp_99
+  - first:
+      213: 6947034979601333668
+    second: black-knight-attack-down-sprite-tp_100
+  - first:
+      213: -1898344207751392534
+    second: black-knight-attack-down-sprite-tp_101
+  - first:
+      213: 3738850795300991339
+    second: black-knight-attack-down-sprite-tp_102
+  - first:
+      213: 7729844517490902860
+    second: black-knight-attack-down-sprite-tp_103
+  - first:
+      213: -8097146271153355458
+    second: black-knight-attack-down-sprite-tp_104
+  - first:
+      213: -3818213800648499786
+    second: black-knight-attack-down-sprite-tp_105
+  - first:
+      213: 8453770028959868629
+    second: black-knight-attack-down-sprite-tp_106
+  - first:
+      213: -1451781320846762395
+    second: black-knight-attack-down-sprite-tp_107
+  - first:
+      213: -8836873518253875574
+    second: black-knight-attack-down-sprite-tp_108
+  - first:
+      213: -387618365176003633
+    second: black-knight-attack-down-sprite-tp_109
+  - first:
+      213: 1814603390247019323
+    second: black-knight-attack-down-sprite-tp_110
+  - first:
+      213: -5267175835536343976
+    second: black-knight-attack-down-sprite-tp_111
+  - first:
+      213: 7767994258465425004
+    second: black-knight-attack-down-sprite-tp_0
+  - first:
+      213: 4543325877533220162
+    second: black-knight-attack-down-sprite-tp_1
+  - first:
+      213: 2524212093842445005
+    second: black-knight-attack-down-sprite-tp_3
+  - first:
+      213: -4924189214249917154
+    second: black-knight-attack-down-sprite-tp_4
+  - first:
+      213: 2877901082482118818
+    second: black-knight-attack-down-sprite-tp_6
+  - first:
+      213: -3150632942644755357
+    second: black-knight-attack-down-sprite-tp_7
+  - first:
+      213: -6446395643382114396
+    second: black-knight-attack-down-sprite-tp_8
+  - first:
+      213: -6818473565848759126
+    second: black-knight-attack-down-sprite-tp_10
+  - first:
+      213: -4069040184462991385
+    second: black-knight-attack-down-sprite-tp_11
+  - first:
+      213: 5713807868760460955
+    second: black-knight-attack-down-sprite-tp_12
+  - first:
+      213: -7436546714405266756
+    second: black-knight-attack-down-sprite-tp_14
+  - first:
+      213: 2943174167371491097
+    second: black-knight-attack-down-sprite-tp_15
+  - first:
+      213: -8335943563908480566
+    second: black-knight-attack-down-sprite-tp_16
+  - first:
+      213: 1671566966941163651
+    second: black-knight-attack-down-sprite-tp_18
+  - first:
+      213: 4387618543124762294
+    second: black-knight-attack-down-sprite-tp_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: atk_light_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 118
+        width: 21
+        height: 32
+      alignment: 9
+      pivot: {x: 0.4105517, y: 0.40928125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89676db16dbea79c0800000000000000
+      internalID: -3928568420104767848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atk_light_2
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 117
+        width: 37
+        height: 25
+      alignment: 9
+      pivot: {x: 0.6615345, y: 0.3565573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40bbcee2e9bc51440800000000000000
+      internalID: 4906051249342561028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atk_light_3
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 100
+        width: 49
+        height: 49
+      alignment: 9
+      pivot: {x: 0.47908986, y: 0.5034851}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e70c35cf371b3c50800000000000000
+      internalID: 6645931237774723043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atk_light_4
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 102
+        width: 42
+        height: 47
+      alignment: 9
+      pivot: {x: 0.4064858, y: 0.4963668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12ae3effe4ffad60800000000000000
+      internalID: 7903805182658388509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atk_light_5
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 115
+        width: 36
+        height: 34
+      alignment: 9
+      pivot: {x: 0.30551782, y: 0.3091451}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7dd03992f179a10800000000000000
+      internalID: 1916034429890713588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atk_med_1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 69
+        width: 22
+        height: 31
+      alignment: 9
+      pivot: {x: 0.6319547, y: 0.38432065}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e00280d5e61ff6f0800000000000000
+      internalID: -648774645016559390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atk_med_2
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 67
+        width: 31
+        height: 30
+      alignment: 9
+      pivot: {x: 0.42838877, y: 0.3349271}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33655c3bf4d7a420800000000000000
+      internalID: 2641313881990193981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atk_med_3
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 51
+        width: 45
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5531269, y: 0.5388104}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b76e97f4bb7777f0800000000000000
+      internalID: -614886806934100048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atk_med_4
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 50
+        width: 35
+        height: 43
+      alignment: 9
+      pivot: {x: 0.7146759, y: 0.59133947}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c8a255f4457d290800000000000000
+      internalID: -7865725524471280565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atk_med_5
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 65
+        width: 34
+        height: 28
+      alignment: 9
+      pivot: {x: 0.7109451, y: 0.36582756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0664deb248ce1e050800000000000000
+      internalID: 5828199445210941024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atk_heavy_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 18
+        width: 21
+        height: 32
+      alignment: 9
+      pivot: {x: 0.3942884, y: 0.4092812}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d50230206f880c0800000000000000
+      internalID: -4573134933091918440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atk_heavy_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 18
+        width: 22
+        height: 32
+      alignment: 9
+      pivot: {x: 0.43014145, y: 0.38793558}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518ebb50b780806f0800000000000000
+      internalID: -718314816095393771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atk_heavy_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1
+        width: 46
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5445474, y: 0.50000006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce67cb2fc6c67d80800000000000000
+      internalID: -8253190674014834995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atk_heavy_4
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 0
+        width: 35
+        height: 38
+      alignment: 9
+      pivot: {x: 0.40729892, y: 0.59886396}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5603b4efbb71d1440800000000000000
+      internalID: 4908105265096372325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atk_heavy_5
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 15
+        width: 32
+        height: 23
+      alignment: 9
+      pivot: {x: 0.44129944, y: 0.36635813}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: effec4141cce0a9f0800000000000000
+      internalID: -459106847223386114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

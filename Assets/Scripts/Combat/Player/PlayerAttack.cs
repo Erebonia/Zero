@@ -11,14 +11,16 @@ public class PlayerAttack : MonoBehaviour
 
     public int attackDamage = 1;
 
-    public float attackCooldown = 1f;
+    public float attackCooldown = 0f;
     private float nextAttackTime = 0f;
+
+    public int counter = 0;
 
     void Update()
     {
         if (Time.time >= nextAttackTime)
         {
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButton(0))
             {
                 //Switch state, conduct attack coroutine, and switch back to normal state.
                 StartCoroutine(Attack());
@@ -33,8 +35,21 @@ public class PlayerAttack : MonoBehaviour
         //Set Attack State
         gameObject.GetComponent<Player>().state = Player.State.Attacking;
 
-        //Play attack anim
-        //animator.SetTrigger("attack 1");
+        if (counter == 0)
+        {
+            //Play attack anim
+            animator.SetTrigger("attacking");
+            counter++;
+        }else if (counter == 1)
+        {
+            animator.SetTrigger("attack_medium");
+            counter++;
+        }else if (counter == 2)
+        {
+            animator.SetTrigger("attack_heavy");
+            counter = 0;
+        }
+
 
         //Detect enemies in range of the attack
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
@@ -45,7 +60,7 @@ public class PlayerAttack : MonoBehaviour
             enemy.GetComponent<Enemy>().TakeDamage(attackDamage);
         }
 
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.29f);
 
         //Reset State
         gameObject.GetComponent<Player>().state = Player.State.Normal;
