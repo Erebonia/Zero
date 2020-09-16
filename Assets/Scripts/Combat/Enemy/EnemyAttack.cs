@@ -11,7 +11,7 @@ public class EnemyAttack : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D player)
     {
-        if (Time.time >= nextAttackTime)
+        if (Time.time >= nextAttackTime && player.CompareTag("Player"))
         {
             player.GetComponent<Player>().TakeDamage(damagePower);
             nextAttackTime = Time.time + 1f / attackCooldown;

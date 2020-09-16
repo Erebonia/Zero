@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3122ac4758cf40a41bfe8267d59ab567, type: 3}
   m_Name: Sword of Darkness
   m_EditorClassIdentifier: 
-  Id: 2
+  Id: 1
   uiDisplay: {fileID: 21300000, guid: 2cedce29f0eb2164a9311b5fbaf4e51a, type: 3}
   type: 1
   description: The sword of darkness.

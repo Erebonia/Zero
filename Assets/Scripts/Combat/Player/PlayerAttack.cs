@@ -32,6 +32,9 @@ public class PlayerAttack : MonoBehaviour
 
     IEnumerator Attack()
     {
+        //Knockback Collider enable
+        this.GetComponentInChildren<CircleCollider2D>().enabled = true;
+
         //Set Attack State
         gameObject.GetComponent<Player>().state = Player.State.Attacking;
 
@@ -50,7 +53,6 @@ public class PlayerAttack : MonoBehaviour
             counter = 0;
         }
 
-
         //Detect enemies in range of the attack
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
@@ -60,7 +62,11 @@ public class PlayerAttack : MonoBehaviour
             enemy.GetComponent<Enemy>().TakeDamage(attackDamage);
         }
 
+
         yield return new WaitForSeconds(0.29f);
+
+        //Knockback Collider Disable after the attack is done
+        this.GetComponentInChildren<CircleCollider2D>().enabled = false;
 
         //Reset State
         gameObject.GetComponent<Player>().state = Player.State.Normal;

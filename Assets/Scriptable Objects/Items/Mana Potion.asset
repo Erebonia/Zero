@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 1
   uiDisplay: {fileID: 21300000, guid: 934404b7953d08e44b64c35f8e780169, type: 3}
-  type: 2
+  type: 0
   description: Leftover of those that have been slain.
+  buffs: []

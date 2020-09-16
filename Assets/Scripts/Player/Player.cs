@@ -28,6 +28,7 @@ public class Player : MonoBehaviour
     {
         Normal,
         Attacking,
+        Hurt,
         Tumbling,
         Dead
     }
@@ -51,6 +52,7 @@ public class Player : MonoBehaviour
         {
             TakeDamage(1);
         }
+
         switch (state)
         {
             case State.Normal:
@@ -75,6 +77,10 @@ public class Player : MonoBehaviour
 
                 break;
 
+            case State.Hurt:
+
+                break;
+
             case State.Tumbling:
                 ReduceTumbleSpeedOverTime();
                 break;
@@ -83,6 +89,7 @@ public class Player : MonoBehaviour
                 //Stop Movement
                 rb.velocity = Vector3.zero;
                 anim.SetBool("moving", false);
+
                 break;
         }
     }

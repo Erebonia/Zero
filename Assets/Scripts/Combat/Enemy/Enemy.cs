@@ -8,8 +8,8 @@ public class Enemy : MonoBehaviour
 {
     //public Animator anim;
 
-    private int maxHitpoints = 10;
-    private int hitpoints = 10;
+    [SerializeField]private int maxHitpoints = 10;
+    [SerializeField]private int hitpoints = 10;
 
     //Enemy HP Bar Fading
     private Image hitpointBar;
@@ -25,6 +25,18 @@ public class Enemy : MonoBehaviour
     private float despawnDuration;
     private Animator enemyHPBarAnim;
     public GameObject floatingText;
+
+    //State Machine
+    public enum State
+    {
+        Normal,
+        Attacking,
+        Hurt,
+        Tumbling,
+        Dead
+    }
+
+    public State state;
 
     private void Awake()
     {
