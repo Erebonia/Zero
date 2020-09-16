@@ -578,6 +578,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 15
   KnockBackDuration: 0.3
+  attackDamage: 1
 --- !u!58 &855500355
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -591,9 +592,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0183568, y: 0}
+  m_Offset: {x: -0.04516375, y: 0}
   serializedVersion: 2
-  m_Radius: 0.93275785
+  m_Radius: 0.8692373
 --- !u!224 &1218374215 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2307160875047058453, guid: a4a132f2689247f4c93c8a3795aa2fe0, type: 3}
@@ -803,11 +804,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1541242060}
-  attackPoint: {fileID: 855500353}
-  attackRange: 0.9
-  enemyLayers:
-    serializedVersion: 2
-    m_Bits: 256
   attackDamage: 1
   attackCooldown: 1
   counter: 0

@@ -7,6 +7,7 @@ public class PlayerKnockBack : MonoBehaviour
 
     [SerializeField] private float thrust;
     [SerializeField] private float KnockBackDuration;
+    public int attackDamage = 1;
 
     protected void OnTriggerStay2D(Collider2D other)
     {
@@ -22,8 +23,6 @@ public class PlayerKnockBack : MonoBehaviour
 
                 //Start Knocking them back
                 StartCoroutine(KnockCoroutine(enemybody));
-
-                Debug.Log("attk");
 
             }
         }
@@ -43,5 +42,7 @@ public class PlayerKnockBack : MonoBehaviour
         //Deactivate Knockback hitstate
         //enemybody.GetComponent<Player>().state = Player.State.Normal;
         enemybody.GetComponent<EnemyFollow>().hurt = false;
+
+        enemybody.GetComponent<Enemy>().TakeDamage(attackDamage);
     }
 }
