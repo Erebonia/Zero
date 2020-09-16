@@ -9,7 +9,7 @@ public class PlayerKnockBack : MonoBehaviour
     [SerializeField] private float KnockBackDuration;
     public int attackDamage = 1;
 
-    protected void OnTriggerStay2D(Collider2D other)
+    protected void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Enemy"))
         {

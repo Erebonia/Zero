@@ -6,8 +6,9 @@ public class Knockback : MonoBehaviour
 {
     [SerializeField] protected float thrust;
     [SerializeField] protected float KnockBackDuration;
+    public int damagePower = 1;
 
-    protected void OnTriggerStay2D(Collider2D other)
+    protected void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
@@ -30,6 +31,7 @@ public class Knockback : MonoBehaviour
         Vector2 force = forceDirection.normalized * thrust;
 
         enemybody.velocity = force;
+        enemybody.GetComponent<Player>().TakeDamage(damagePower);
         yield return new WaitForSeconds(KnockBackDuration);
 
         enemybody.velocity = new Vector2();
