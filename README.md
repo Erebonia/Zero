@@ -1,6 +1,6 @@
-A basic 2D RPG Game Skeleton.
+A basic 2D RPG Game Skeleton inspired by Dark Souls.
 
-- Player movement
+- Player movement with roll dodge
 - Player attack with animations
 - Monsters can do the same and have aggressive systems where they will chase you.
 - Portal system to traverse between landscapes with fade transitions on the screen.
